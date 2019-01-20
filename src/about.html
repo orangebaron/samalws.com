@@ -1,1 +1,14 @@
-<p>content<a href="index.html">content</a>content</p>
+<p>Use this handy menu to get information.</p>
+<select id="sel">
+	<option>Favorite color</option>
+	<option>Resume</option>
+	<option>Password</option>
+</select>
+<button onclick="clicked()">Query</button>
+<p id="answer"></p>
+<script>
+	items = ["orange","I'll put this in later","***********"]
+	function clicked() {
+		document.getElementById("answer").innerHTML = items[document.getElementById("sel").selectedIndex]
+	}
+</script>
