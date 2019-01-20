@@ -2,19 +2,24 @@ body {
 	margin: 0;
 	background-color: #DDAB65;
 	font-family: "Ubuntu", "Sans-serif";
+	font-weight: bold;
+}
+h1 {
+	position: relative;
+	left: -5%;
 }
 a {
-	margin: 0px;
 	background-color: #008080;
-	padding: 5px;
 	color: white;
-	font-weight: bold;
 	text-decoration: none;
-	display: block;
 }
 a:hover {
 	color: #DDAB65;
-	transition: color .3s ease;
+	transition: color .35s ease;
+}
+.sidebar > a {
+	display: block;
+	padding: 5px;
 }
 .tabbed {
 	margin-left: 20px;
@@ -23,11 +28,10 @@ a:hover {
 	margin-left: 40px;
 }
 .sidebar {
-	display: inline-block;
-	width: 15%;
+	position: fixed;
 }
 .maincontent {
-	display: inline-block;
-	text-align: center;
-	width: 84%;
+	position: absolute;
+	left: 150px;
+	padding: 0 15%;
 }
