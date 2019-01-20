@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	background-color: #DDAB65;
+	font-family: "Ubuntu", "Sans-serif";
+}
+a {
+	margin: 0px;
+	background-color: #008080;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+a:hover {
+	color: #DDAB65;
+	transition: color .3s ease;
+}
+.tabbed {
+	margin-left: 20px;
+}
+.twotabbed {
+	margin-left: 40px;
+}
+.sidebar {
+	display: inline-block;
+	width: 15%;
+}
+.maincontent {
+	display: inline-block;
+	text-align: center;
+	width: 84%;
+}
