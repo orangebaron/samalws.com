@@ -7,4 +7,4 @@ index.html: samalws.com.html
 	cat src/template2.html >> $@
 clean:
 	find -maxdepth 1 -name "*.html" -delete
-all: index.html about.html projects.html yea.html mmm.html things.html links.html
+all: index.html about.html uweonly.html things.html links.html
